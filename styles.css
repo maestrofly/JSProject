@@ -1,10 +1,41 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
   }
   
   #notes {
     max-width: 400px;
     margin: 20px auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+   */
+
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #431bd6; 
+  }
+  
+  #notes {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for the notes container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
   }
   
   ul {
